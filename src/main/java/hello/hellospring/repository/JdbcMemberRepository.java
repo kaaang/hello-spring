@@ -25,7 +25,7 @@ public class JdbcMemberRepository implements MemberRepository{
     }
 
     @Override
-    public Optional<Member> findBtName(String name) {
+    public Optional<Member> findByName(String name) {
         return Optional.empty();
     }
 
