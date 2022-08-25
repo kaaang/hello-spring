@@ -11,6 +11,7 @@ public class Member {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String phone;
 
     public Long getId() {
         return id;
@@ -27,4 +28,5 @@ public class Member {
     public void setName(String name) {
         this.name = name;
     }
+
 }
